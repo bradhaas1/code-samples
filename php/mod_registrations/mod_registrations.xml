@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+
+  <name>Registrations</name>
+  <author>Brad Haas</author>
+  <creationDate>20013-03-07</creationDate>
+  <copyright>All rights reserved by Diono LLC 2013.</copyright>
+  <license>GPL 2.0</license>
+  <authorEmail>bradhaas1@msn.com</authorEmail>
+  <authorUrl>www.bradhaas.net</authorUrl>
+  <version>1.0.0</version>
+  <description>Insert Product Registration data into SAP Business One database.</description>
+
+  <!-- Listing of all files that should be installed for the module to function -->
+  <files>
+    <!-- The "module" attribute signifies that this is the main controller file -->
+    <filename module="mod_registrations">mod_registrations.php</filename>
+    <filename>index.html</filename>
+		<filename>helper.php</filename>
+  </files>
+
+  <!-- Optional parameters -->
+  <params />
+</install>

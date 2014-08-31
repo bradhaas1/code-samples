@@ -1,0 +1,135 @@
+﻿.tweet-container{
+	position:relative;
+	width:200px;
+	height: 310px;
+	margin:75px auto;
+	/*overflow-y: hidden;*/
+	border: 1px solid #d1d4d3;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	overflow:visible;
+}
+
+		
+.tweetwrapper{
+	width:200px;;	 
+	border-left: 8px solid #fff;
+	padding: 6px 0px;
+}
+	 
+.tweet{
+	margin-left: 10px;
+	padding-right: 25px;
+}
+	 
+.activetweet{
+background-color:#edfccd;
+border-left: 8px solid #8fd400;
+}
+
+
+#scrollbar-track {
+width: 10px;
+position: absolute;
+right: 0px;
+height: 100%;
+float:right;
+background: #8fd400;
+z-index:100;
+}
+
+#scrollbar {
+width: 10px;
+position:relative;
+height:20px;
+right: 0px;
+background: #666;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+}
+
+.scroll-container {
+	position:absolute;
+	/*bottom:20px;*/
+}
+
+#scroll-pane,.scroll-pane{
+	position:relative;
+	height:250px;
+	width:200px;
+}
+
+.scroll-content {position:absolute;top:0;left:0}
+
+.slider-wrap{
+	position:absolute;
+	right:0;
+	top:0;
+	/*background-color:#d1d4d3;*/
+	width:10px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	background: url('../images/slider-wrap.png') 0 0 repeat-y;
+	
+
+}
+
+.slider-vertical{position:relative;height:100%;}
+
+.ui-slider-handle{
+	width:10px;
+	height:10px;
+	margin:0 auto;
+	/*background-color:#5f6a72;*/
+	display:block;
+	position:absolute;
+	/*-webkit-border-radius: 5px;
+	border-radius: 5px;*/
+	/*background: url('../images/slide-grip.png') 0 0 no-repeat;*/
+
+	
+}
+
+.ui-slider-handle img{border:none}
+.scrollbar-top{position:absolute;top:0;}
+.scrollbar-bottom{position:absolute;bottom:0;}
+.scrollbar-grip{position:absolute;}
+.ui-slider-range{position:absolute;width:100%;}
+
+
+span.tweettext {
+	font-size:12px;
+	color: #5f6a72;
+}
+
+div.tweet span {
+	display:block;
+}
+
+a.link, a.tag {
+	text-decoration:none;
+	font-size:11px;
+}
+
+a.link {
+	color: #8fd400;
+}
+
+a.tag {
+	color: #a5acb0;
+}
+
+a.link:hover {
+	color: #e3173e;
+}
+
+a.tag:hover {
+	color: #e3173e;
+}
+
+.twitter-logo {
+	margin: -5px 0px 0px 15px;
+	z-index:50;
+}
+
+

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<install type="module" version="2.5.0">
+  <name>Get Tweets</name>
+  <author>Brad Haas</author>
+  <creationDate>5-2-2013</creationDate>
+  <copyright>All rights reserved.</copyright>
+  <license>GPL 2.0</license>
+  <authorEmail>bradhaa1s@msn.com</authorEmail>
+  <version>1.0.0</version>
+  <description>Get most recent diono tweets and fill stylized scrollable DIV</description>
+
+  <files>
+    <filename module="mod_get_tweets">mod_get_tweets.php</filename>
+		<filename>helper.php</filename>
+
+		<filename>includes/tmhOAuth.php</filename>
+		<filename>includes/tmhUtilities.php</filename>
+		<filename>includes/jquery-ui-draggable.js</filename>		
+		<filename>includes/get-tweets.js</filename>
+
+		<filename>images/slide-grip.png</filename>
+		<filename>images/slider-wrap.png</filename>
+		<filename>images/trans.png</filename>
+		<filename>images/twitter-logo.png</filename>
+	</files>
+</install>
+

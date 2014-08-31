@@ -1,0 +1,41 @@
+﻿body{
+	background-color: #000;
+}
+
+#container{
+	width: 1200px;
+	height: 800px;
+	
+	margin:4em auto 0 auto;
+	/*background-color: red;*/
+}
+#draw-target{
+	width:1000px;
+	height: 500px;
+	background-color: #111;
+	position: relative;
+	margin:auto;
+	box-shadow: 0 0 100px#333 ;
+}
+
+#caption{
+	width: 80%;
+	margin: auto;
+	padding-top: 5.5em;
+
+}
+
+#caption h1{
+	text-align:center;
+	font-size: 3.3em;
+	letter-spacing: .5em;
+	line-height: 2em;
+	color: #fff;
+	font-family:Impact, sans-serif;
+	text-shadow: 4px 4px 12px #ccc;
+	text-transform:uppercase;
+	opacity:.9;
+	background-color: #555;
+	border-radius: 20px;
+	box-shadow: 0 0 40px #888 ;
+}

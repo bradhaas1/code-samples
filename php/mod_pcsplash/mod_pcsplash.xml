@@ -1,0 +1,13 @@
+<?xml version= "1.0" encoding="utf-8"?>
+<install type="module" version="1.5.0">
+  <name>Partner Center Intro</name>
+  <author>Brad Haas</author>
+  <license>GPL 2.0</license>
+  <authorEmail>brad.haas@diono.com</authorEmail>
+  <version>1.0</version>
+  <description>Display custom greeting message on Partner Center splash page based on user authentication.</description>
+  <files>
+    <filename module="mod_pcsplash">mod_pcsplash.php</filename>
+    <filename>helper.php</filename>
+  </files>
+</install>
